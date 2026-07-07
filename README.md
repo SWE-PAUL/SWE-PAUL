@@ -18,18 +18,18 @@
 <!-- ══════════════ ABOUT ══════════════ -->
 ## &nbsp;👨‍💻&nbsp; About
 
-```yaml
-role:      Software Engineer @ Skybridge Payment Inc. (SkyPay)
-domain:    FinTech — payments, disbursement & collection platforms
-building:  cloud-native microservices & a government financial portal
-creator:   EXAMBOT — AI-powered exam generator for higher education
-award:     3rd Best Research Paper · INSIGHT 2025 Int'l Summit
-stack:     Java 17 · Kotlin · Quarkus · Node · React · GCP · K8s
-location:  Philippines 🇵🇭
-```
+<p align="center">
+  <img src="./assets/card.svg" alt="John Paul Bayoneto — engineer card" width="460"/>
+</p>
+
+I'm a software engineer at **Skybridge Payment Inc. (SkyPay)** building the systems that move money — payment integration, disbursement, and collection platforms. My focus is the part that has to be right every time: **correctness, uptime, and clean APIs.**
+
+- 🏦 Backend for a **government-related financial disbursement portal** — `Java 17` · `Kotlin` · `Quarkus` on **GCP**
+- 🤖 Creator of **EXAMBOT**, an AI exam platform that earned **3rd Best Research Paper** at INSIGHT 2025
+- 🔗 Full-stack range — from Quarkus microservices to **React** frontends and REST/JSON integrations
+- 🧭 Going deep on **distributed systems** & **payment infrastructure** to build FinTech backends that scale
 
 > I like problems where reliability is non-negotiable — money moving correctly, systems staying up, and AI that gives people real hours back.
-
 ---
 
 <!-- ══════════════ RECOGNITION ══════════════ -->
