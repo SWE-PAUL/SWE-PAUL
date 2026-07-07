@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 76" width="1200" height="76" role="img" aria-label="Section 02 â€” FEATURED PROJECTS">
+<defs>
+  <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0A0E1A"/><stop offset="0.55" stop-color="#0B1120"/><stop offset="1" stop-color="#0E1730"/>
+  </linearGradient>
+  <linearGradient id="hnum" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7FB4FF"/><stop offset="0.55" stop-color="#38BDF8"/><stop offset="1" stop-color="#34D399"/>
+  </linearGradient>
+  <linearGradient id="httl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#EAF2FF"/><stop offset="1" stop-color="#BFD3F5"/>
+  </linearGradient>
+  <linearGradient id="hrl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#38BDF8" stop-opacity="0"/><stop offset="0.4" stop-color="#38BDF8" stop-opacity="0.9"/><stop offset="1" stop-color="#34D399" stop-opacity="0.9"/>
+  </linearGradient>
+  <radialGradient id="hnd" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#34D399" stop-opacity="0.7"/><stop offset="1" stop-color="#34D399" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+@keyframes hgFade { from{opacity:0} to{opacity:1} }
+@keyframes hgIn   { from{opacity:0; transform:translateX(-10px)} to{opacity:1; transform:translateX(0)} }
+@keyframes hgDraw { from{stroke-dashoffset:120} to{stroke-dashoffset:0} }
+@keyframes hgMove { 0%{offset-distance:0%;opacity:0} 12%{opacity:1} 82%{offset-distance:100%;opacity:1} 90%{opacity:0} 100%{offset-distance:100%;opacity:0} }
+@keyframes hgPulse{ 0%{transform:scale(.6);opacity:.7} 100%{transform:scale(2.6);opacity:0} }
+.hg-panel{animation:hgFade .7s ease both}
+.hg-in{transform-box:fill-box;animation:hgIn .6s cubic-bezier(.2,.7,.2,1) .1s both}
+.hg-line{stroke-dasharray:120;stroke-dashoffset:120;animation:hgDraw .8s ease .45s both}
+.hg-flow{display:none}
+@supports (offset-path: path('M0 0')){.hg-flow{display:block;offset-path:path('M 620 38 L 1150 38');offset-rotate:0deg;animation:hgMove 3.4s ease-in-out 1s infinite}}
+.hg-ring{transform-box:fill-box;transform-origin:center;animation:hgPulse 2.6s ease-out 1s infinite}
+@media (prefers-reduced-motion: reduce){
+  .hg-panel,.hg-in{animation:none;opacity:1;transform:none}
+  .hg-line{animation:none;stroke-dashoffset:0}
+  .hg-flow{display:none}.hg-ring{opacity:0}
+}
+</style>
+<g class="hg-panel">
+  <rect width="1200" height="76" rx="14" fill="url(#hbg)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="74.5" rx="14" fill="none" stroke="#24314F" stroke-width="1.5"/>
+  <g class="hg-in">
+    <rect x="20" y="15" width="46" height="46" rx="11" fill="#0C1A2E" stroke="#2A5CB8" stroke-width="1.3"/>
+    <text x="43" y="46" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace" font-size="20" font-weight="800" fill="url(#hnum)">02</text>
+    <text x="84" y="39" font-family="ui-monospace,'Courier New',monospace" font-size="13" fill="#34D399">&gt;</text>
+    <text x="104" y="47" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="1.5" fill="url(#httl)">FEATURED PROJECTS</text>
+  </g>
+  <line class="hg-line" x1="104" y1="61" x2="224" y2="61" stroke="url(#hrl)" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="620" y1="38" x2="1150" y2="38" stroke="#22304E" stroke-width="1.6"/>
+  <circle cx="760" cy="38" r="2.6" fill="#0E1730" stroke="#3C5488" stroke-width="1.2"/>
+  <circle cx="900" cy="38" r="2.6" fill="#0E1730" stroke="#3C5488" stroke-width="1.2"/>
+  <circle cx="1040" cy="38" r="2.6" fill="#0E1730" stroke="#3C5488" stroke-width="1.2"/>
+  <circle cx="1150" cy="38" r="14" fill="url(#hnd)"/>
+  <circle class="hg-ring" cx="1150" cy="38" r="6" fill="none" stroke="#34D399" stroke-width="1.3"/>
+  <circle cx="1150" cy="38" r="4.5" fill="#34D399"/><circle cx="1150" cy="38" r="1.8" fill="#04120C"/>
+  <g class="hg-flow"><circle r="5" fill="#38BDF8" opacity="0.5"/><circle r="2.4" fill="#EAF6FF"/></g>
+</g>
+</svg>

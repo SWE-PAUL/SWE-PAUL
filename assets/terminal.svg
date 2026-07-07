@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Terminal — deploying payment rails; Quarkus, Kubernetes, GCP; exploring Kafka, event-driven, observability">
+<defs>
+  <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0A0E1A"/><stop offset="0.55" stop-color="#0B1120"/>
+    <stop offset="1" stop-color="#0E1730"/>
+  </linearGradient>
+  <linearGradient id="tbar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#111B31"/><stop offset="1" stop-color="#0C1424"/>
+  </linearGradient>
+  <radialGradient id="tglow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#34D399" stop-opacity="0.5"/><stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<style>
+@keyframes tFade  { from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:translateY(0)} }
+@keyframes tBlink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+@keyframes tPulse { 0%{opacity:.4} 50%{opacity:1} 100%{opacity:.4} }
+.t-panel { animation: tFade .7s ease both; }
+.t-line  { opacity:0; transform-box: fill-box; }
+.t-l1 { animation: tFade .5s ease .3s both; }
+.t-l2 { animation: tFade .5s ease 1.0s both; }
+.t-l3 { animation: tFade .5s ease 1.7s both; }
+.t-l4 { animation: tFade .5s ease 2.4s both; }
+.t-ok { animation: tFade .5s ease 1.35s both; }
+.t-caret { animation: tBlink 1.05s steps(1,end) 3s infinite; }
+.t-led  { animation: tPulse 2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .t-panel,.t-l1,.t-l2,.t-l3,.t-l4,.t-ok { animation: none; opacity:1; transform:none; }
+  .t-caret { animation: none; opacity:1; }
+  .t-led { animation: none; opacity:1; }
+}
+</style>
+<g class="t-panel">
+  <rect width="1200" height="240" rx="16" fill="url(#tbg)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="238.5" rx="16" fill="none" stroke="#24314F" stroke-width="1.5"/>
+  <!-- title bar -->
+  <path d="M0 16 A16 16 0 0 1 16 0 H1184 A16 16 0 0 1 1200 16 V52 H0 Z" fill="url(#tbar)"/>
+  <line x1="0" y1="52" x2="1200" y2="52" stroke="#24314F" stroke-width="1.2"/>
+  <circle cx="34" cy="26" r="6.5" fill="#FF5F57"/>
+  <circle cx="58" cy="26" r="6.5" fill="#FEBC2E"/>
+  <circle cx="82" cy="26" r="6.5" fill="#28C840"/>
+  <text x="600" y="31" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace" font-size="15" fill="#6E88BE">paul@skypay:~/payments</text>
+  <circle class="t-led" cx="1166" cy="26" r="4.5" fill="#34D399"/>
+  <!-- body -->
+  <g font-family="ui-monospace,'Courier New',monospace" font-size="20">
+    <text class="t-line t-l1" x="40" y="98"  fill="#9FB6DE"><tspan fill="#34D399" font-weight="700">$</tspan> deploying payment rails<tspan fill="#5E82C4">...</tspan></text>
+    <text class="t-line t-l2" x="40" y="134" fill="#BFD3F5"><tspan fill="#38BDF8">&gt;</tspan> Quarkus · Kubernetes · GCP</text>
+    <text class="t-line t-ok"  x="1160" y="134" text-anchor="end" font-weight="700" fill="#34D399">[ OK ]</text>
+    <text class="t-line t-l3" x="40" y="170" fill="#BFD3F5"><tspan fill="#38BDF8">&gt;</tspan> exploring: Kafka · event-driven · observability</text>
+    <text class="t-line t-l4" x="40" y="206" fill="#BFD3F5"><tspan fill="#38BDF8">&gt;</tspan> next: distributed systems · payment infrastructure</text>
+  </g>
+  <rect class="t-caret" x="40" y="222" width="12" height="4" rx="1" fill="#34D399"/>
+</g>
+</svg>

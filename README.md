@@ -13,17 +13,44 @@
   <img src="https://komarev.com/ghpvc/?username=SWE-PAUL&label=Views&color=0e75b6&style=flat-square" alt="Views"/>
 </p>
 
+<!-- ══════════════ TYPING HEADLINE (custom animated SVG) ══════════════ -->
+<p align="center">
+  <img src="./assets/headline.svg" alt="I build the systems that move money — Software Engineer at SkyPay" width="100%"/>
+</p>
+
+<!-- ══════════════ QUICK NAV ══════════════ -->
+<p align="center">
+  <a href="#about"><img src="https://img.shields.io/badge/About-0E1730?style=flat-square&labelColor=0E1730" alt="About"/></a>&nbsp;
+  <a href="#projects"><img src="https://img.shields.io/badge/Projects-0E1730?style=flat-square&labelColor=0E1730" alt="Projects"/></a>&nbsp;
+  <a href="#journey"><img src="https://img.shields.io/badge/Journey-0E1730?style=flat-square&labelColor=0E1730" alt="Journey"/></a>&nbsp;
+  <a href="#stack"><img src="https://img.shields.io/badge/Stack-0E1730?style=flat-square&labelColor=0E1730" alt="Stack"/></a>&nbsp;
+  <a href="#stats"><img src="https://img.shields.io/badge/Stats-0E1730?style=flat-square&labelColor=0E1730" alt="Stats"/></a>&nbsp;
+  <a href="#connect"><img src="https://img.shields.io/badge/Connect-0E1730?style=flat-square&labelColor=0E1730" alt="Connect"/></a>
+</p>
+
+<!-- ══════════════ AVAILABILITY STATUS (custom animated SVG) ══════════════ -->
+<p align="center">
+  <img src="./assets/status.svg" alt="Available for opportunities — FinTech & backend" width="52%"/>
+</p>
+
 <br/>
 
+<a id="about"></a>
 <!-- ══════════════ ABOUT ══════════════ -->
 <p align="center">
   <img src="./assets/about.svg" width="100%"
        alt="About — I build the systems that move money. Software Engineer at SkyPay working on payments, disbursement and cloud-native backend. Highlights: government disbursement portal (Java 17, Kotlin, Quarkus, GCP); EXAMBOT, 3rd Best Research Paper INSIGHT 2025; full-stack range; exploring distributed systems and payment infrastructure."/>
 </p>
----
+
+<!-- ══════════════ IMPACT METRICS (custom animated SVG) ══════════════ -->
+<p align="center">
+  <img src="./assets/metrics.svg" alt="Impact — ~80% exam-prep time cut · 3rd Best Research Paper INSIGHT 2025 · 11 languages & frameworks shipped · payments moving 24/7 at scale" width="100%"/>
+</p>
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <!-- ══════════════ RECOGNITION ══════════════ -->
-## &nbsp;🏆&nbsp; Recognition
+<p align="center"><img src="./assets/header-recognition.svg" alt="Recognition" width="100%"/></p>
 
 <table>
   <tr>
@@ -36,70 +63,79 @@
   </tr>
 </table>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
+<a id="projects"></a>
 <!-- ══════════════ PROJECTS ══════════════ -->
-## &nbsp;🚀&nbsp; Featured Projects
-
-### 🤖 EXAMBOT · AI Exam Generator & Management System
-> Cuts exam-prep time by **~80%** for higher-ed institutions.
-
-- GPT-generated exams with automatic **Table of Specifications (TOS)**
-- Multiple exam versions · browser lockdown · live security monitoring
-
-`Laravel` &nbsp;·&nbsp; `PHP` &nbsp;·&nbsp; `MySQL` &nbsp;·&nbsp; `OpenAI API` &nbsp;·&nbsp; `JavaScript`
-
-<br/>
-
-### 💳 Credit Card Checkout Integration
-> Secure online card payments through a custom, PCI-conscious checkout flow.
-
-- Proof of concept for tokenized, gateway-backed transactions
-
-`Java` &nbsp;·&nbsp; `REST APIs` &nbsp;·&nbsp; `JSON` &nbsp;·&nbsp; `Payment Integration`
-
-<br/>
-
-### 🏦 Financial Disbursement Platform
-> Backend for enterprise disbursement & collection at scale.
-
-- Cloud-native services powering a government-related financial portal
-
-`Java 17` &nbsp;·&nbsp; `Kotlin` &nbsp;·&nbsp; `Quarkus` &nbsp;·&nbsp; `PostgreSQL` &nbsp;·&nbsp; `Docker` &nbsp;·&nbsp; `Kubernetes` &nbsp;·&nbsp; `GCP`
-
----
-
-<!-- ══════════════ TECH STACK ══════════════ -->
-## &nbsp;🛠️&nbsp; Tech Stack
-
-<table align="center">
-  <tr><td align="right"><b>Languages</b></td><td><img src="https://skillicons.dev/icons?i=java,kotlin,js,php,python,html,css" /></td></tr>
-  <tr><td align="right"><b>Backend</b></td><td><img src="https://skillicons.dev/icons?i=spring,quarkus,nodejs,laravel" /></td></tr>
-  <tr><td align="right"><b>Frontend</b></td><td><img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap" /></td></tr>
-  <tr><td align="right"><b>Data</b></td><td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis" /></td></tr>
-  <tr><td align="right"><b>Cloud / DevOps</b></td><td><img src="https://skillicons.dev/icons?i=gcp,docker,kubernetes,git,github,postman" /></td></tr>
-</table>
-
----
-
-<!-- ══════════════ STATS ══════════════ -->
-## &nbsp;📊&nbsp; GitHub Stats
+<p align="center"><img src="./assets/header-projects.svg" alt="Featured Projects" width="100%"/></p>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=SWE-PAUL&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&title_color=38BDF8&icon_color=34D399&text_color=9FB6DE&bg_color=0B1120" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SWE-PAUL&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=38BDF8&text_color=9FB6DE&bg_color=0B1120" />
+  <img src="./assets/projects.svg" alt="Featured projects — EXAMBOT (AI exam generator; Laravel, PHP, MySQL, OpenAI, JS), Credit Card Checkout (Java, REST, JSON, Payments), Financial Disbursement Platform (Java 17, Kotlin, Quarkus, PostgreSQL, Kubernetes, GCP)" width="100%"/>
+</p>
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
+
+<a id="journey"></a>
+<!-- ══════════════ JOURNEY ══════════════ -->
+<p align="center"><img src="./assets/header-journey.svg" alt="Journey" width="100%"/></p>
+
+<p align="center">
+  <img src="./assets/timeline.svg" alt="Journey — BS Information Technology (Business Analytics), Batangas State University 2021–2025, Dean's Lister First Honor; INSIGHT 2025 3rd Best Research Paper for EXAMBOT; SkyPay Software Engineer in payments & disbursement (current); next: distributed systems & payment infrastructure" width="100%"/>
+</p>
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
+
+<a id="stack"></a>
+<!-- ══════════════ TECH STACK ══════════════ -->
+<p align="center"><img src="./assets/header-stack.svg" alt="Tech Stack" width="100%"/></p>
+
+<p align="center">
+  <img src="./assets/stack.svg" alt="Tech stack — Languages: Java, Kotlin, JS, PHP, Python, HTML, CSS; Backend: Spring, Quarkus, Node.js, Laravel; Frontend: React, Tailwind, Bootstrap; Data: PostgreSQL, MySQL, MongoDB, Redis; Cloud & DevOps: GCP, Docker, Kubernetes, Git, GitHub, Postman" width="100%"/>
+</p>
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
+
+<a id="stats"></a>
+<!-- ══════════════ STATS ══════════════ -->
+<p align="center"><img src="./assets/header-stats.svg" alt="GitHub Stats" width="100%"/></p>
+
+<p align="center">
+  <img width="80%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SWE-PAUL&theme=tokyonight" alt="Profile summary" />
+</p>
+
+<p align="center">
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SWE-PAUL&theme=tokyonight" alt="Stats" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SWE-PAUL&theme=tokyonight" alt="Most-used languages" />
 </p>
 
 <p align="center">
   <img width="80%" src="https://streak-stats.demolab.com?user=SWE-PAUL&theme=tokyonight&hide_border=true&background=0B1120&ring=38BDF8&fire=34D399&currStreakLabel=38BDF8" />
 </p>
 
----
+<!-- ══════════════ CONTRIBUTION SNAKE (auto-generated by .github/workflows/snake.yml) ══════════════ -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SWE-PAUL/SWE-PAUL/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SWE-PAUL/SWE-PAUL/output/github-contribution-grid-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/SWE-PAUL/SWE-PAUL/output/github-contribution-grid-snake.svg" width="100%" alt="John Paul's contribution graph being eaten by a snake"/>
+  </picture>
+</p>
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <!-- ══════════════ HEADED ══════════════ -->
-## &nbsp;🌱&nbsp; Where I'm Headed
+<p align="center"><img src="./assets/header-headed.svg" alt="Where I'm Headed" width="100%"/></p>
 
 Going deep on **distributed systems** and **payment infrastructure** — leveling up **Quarkus**, **Kubernetes**, and **GCP** to build FinTech backends that scale.
+
+<p align="center">
+  <img src="./assets/terminal.svg" alt="paul@skypay:~/payments — deploying payment rails; Quarkus, Kubernetes, GCP OK; exploring Kafka, event-driven, observability" width="100%"/>
+</p>
+
+<!-- ══════════════ CODE SNIPPET (custom animated SVG) ══════════════ -->
+<p align="center">
+  <img src="./assets/code.svg" alt="Transfer.kt — a Kotlin money-transfer function with balance check, ledger debit/credit, and a Result.Ok return" width="100%"/>
+</p>
 
 <details>
   <summary><b>🎯 Career goals &amp; what I'm exploring</b></summary>
@@ -114,6 +150,21 @@ Going deep on **distributed systems** and **payment infrastructure** — levelin
 </details>
 
 <br/>
+
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
+
+<a id="connect"></a>
+<!-- ══════════════ SIGNATURE CARD (custom animated SVG) ══════════════ -->
+<p align="center"><img src="./assets/header-connect.svg" alt="Let's Build Something" width="100%"/></p>
+<p align="center"><i>Open to FinTech &amp; backend roles, collaboration, and a good systems-design conversation.</i></p>
+<p align="center">
+  <a href="https://johnpaulbayoneto-48a39.web.app/"><img src="./assets/card.svg" alt="John Paul Bayoneto — Software Engineer · SkyPay engineer card" width="420"/></a>
+</p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/john-paul-bayoneto-10a3a4271"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://johnpaulbayoneto-48a39.web.app/"><img src="https://img.shields.io/badge/Portfolio-0E75B6?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="mailto:bayonetojohnpaul@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
 
 <!-- ══════════════ FOOTER (custom SVG) ══════════════ -->
 <p align="center">
