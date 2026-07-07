@@ -153,15 +153,15 @@ Java 17 • Kotlin • Quarkus • PostgreSQL • Docker • Kubernetes • Goog
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=SWE-PAUL&show_icons=true&theme=tokyonight"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SWE-PAUL&layout=compact&theme=tokyonight"/>
 
 </p>
 
 <p align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SWE-PAUL&theme=tokyonight"/>
 
 </p>
 
@@ -191,9 +191,9 @@ Java 17 • Kotlin • Quarkus • PostgreSQL • Docker • Kubernetes • Goog
 
 ## 📫 Connect with Me
 
-- 💼 LinkedIn: https://linkedin.com/in/YOUR-LINKEDIN
-- 🌐 Portfolio: https://YOUR-PORTFOLIO
-- 📧 Email: YOUR_EMAIL
+- 💼 LinkedIn: www.linkedin.com/in/john-paul-bayoneto-10a3a4271
+- 🌐 Portfolio: https://johnpaulbayoneto-48a39.web.app/
+- 📧 Email: bayonetojohnpaul@gmail.com
 
 ---
 
