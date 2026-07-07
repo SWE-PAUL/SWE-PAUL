@@ -149,20 +149,64 @@ Java 17 • Kotlin • Quarkus • PostgreSQL • Docker • Kubernetes • Goog
 
 ---
 
-## 📊 GitHub Stats
+---
+
+## 📊 GitHub Statistics
 
 <p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=SWE-PAUL&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SWE-PAUL&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</p>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SWE-PAUL&show_icons=true&theme=tokyonight"/>
+<p align="center">
+  <img width="98%" src="https://streak-stats.demolab.com?user=SWE-PAUL&theme=tokyonight&hide_border=true" />
+</p>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SWE-PAUL&layout=compact&theme=tokyonight"/>
+---
 
+## 🏆 GitHub Trophies
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=SWE-PAUL&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=2&column=4"/>
+</p>
+
+---
+
+## 📈 Contribution Graph
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SWE-PAUL&theme=tokyo-night&hide_border=true"/>
+</p>
+
+---
+
+## 💻 Tech Stack
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=java,kotlin,react,nodejs,laravel,spring,php,js,html,css,tailwind,mysql,postgres,mongodb,redis,docker,kubernetes,gcp,git,github,postman,vscode,idea&perline=8"/>
+</p>
+
+---
+
+## 🚀 Currently Learning
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=kotlin,docker,kubernetes,gcp,gradle"/>
 </p>
 
 <p align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SWE-PAUL&theme=tokyonight"/>
+🌱 **Currently building enterprise FinTech applications using**
+**Quarkus • Java 17 • Kotlin • Google Cloud Platform • Docker • Kubernetes**
 
+</p>
+
+---
+
+## 👀 Profile Views
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=SWE-PAUL&label=Profile%20Views&color=0e75b6&style=flat"/>
 </p>
 
 ---
